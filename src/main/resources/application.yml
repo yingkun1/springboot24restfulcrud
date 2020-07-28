@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://101.132.138.215:3306/springBoot?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: yingkun9257
+    type: com.alibaba.druid.pool.DruidDataSource
+mybatis:
+  # 映射文件配置
+  mapper-locations: classpath:/sqlmap/*.xml
+  # 别名配置
+  type-aliases-package: online.luffyk.springboot24restfulcrud.domain
